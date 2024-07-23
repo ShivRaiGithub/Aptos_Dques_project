@@ -2,7 +2,11 @@
 
 ### Work
 This program allows the onwer to set a up a contract ( provided in the contract folder), initialize it, put a question for the frontend and then allows the users to anonymously answer the set question.   
-Contract was deployed to object address 0x3a4785b28d6d0c6832acf8a7ba6a8d0959c2bb0d9e09da2db35c3b6aaacaec13 by account 0xdaf23ad3aa5527ce3a8a570a2199ea72d1c3f1eb2a8e2ceef1e8ef58c3cc7156.
+
+## Contract Deployment :
+Contract was deployed to object address 0x3a4785b28d6d0c6832acf8a7ba6a8d0959c2bb0d9e09da2db35c3b6aaacaec13 by account 0xdaf23ad3aa5527ce3a8a570a2199ea72d1c3f1eb2a8e2ceef1e8ef58c3cc7156.   
+Transaction submitted: https://explorer.aptoslabs.com/txn/0x784696af57493cc992fac81b09021f2e7eb4f8e674c2c7447d9c4d5362829948?network=devnet
+
 
 
 ## Demo
