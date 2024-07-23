@@ -1,3 +1,33 @@
+## About the program
+
+### Work
+This program allows the onwer to set a up a contract ( provided in the contract folder), initialize it, put a question for the frontend and then allows the users to anonymously answer the set question.   
+Contract was deployed to object address 0x3a4785b28d6d0c6832acf8a7ba6a8d0959c2bb0d9e09da2db35c3b6aaacaec13 by account 0xdaf23ad3aa5527ce3a8a570a2199ea72d1c3f1eb2a8e2ceef1e8ef58c3cc7156.
+
+
+## Demo
+The following images mentioned are present in 'public' folder.   
+1) On successful run of the project, the home screen will look like "home.png".
+2) After connecting wallet, depending on the amount of answers already present, it will look like "Ques.png" where the question is at the top, the reply box present below, and then the replies with the first one being at the top.
+3) When writing and sending the reply, it will look like "reply.png".
+4) When replied, it will look like "replied.png" with your reply being at the bottom.   
+
+
+## Future work
+
+1) Allowing owner to reset the answers given.   
+2) Allowing other users to also ask questions.
+3) Categorizing the questions allowing users for better search and explore options.
+4) Allowing users to reply to other users' answers.
+
+
+# Setting the project
+
+### Reminder
+This uses Petra Wallet as the wallet for connection.   
+Put the address of your deployed contract in Ques.js for connection to the contract.
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
@@ -16,25 +46,4 @@ bun dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
-
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Results should match as mentioned in 'Demo' section above with the images provided in public folder.
